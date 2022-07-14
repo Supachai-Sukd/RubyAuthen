@@ -119,7 +119,6 @@ GEM
     nokogiri (1.13.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.4.1)
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -160,6 +159,7 @@ GEM
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    sqlite3 (1.4.4)
     strscan (3.0.3)
     thor (1.2.1)
     timeout (0.3.0)
@@ -180,10 +180,10 @@ DEPENDENCIES
   debug
   devise
   jwt
-  pg (~> 1.4, >= 1.4.1)
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.3, >= 7.0.3.1)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
